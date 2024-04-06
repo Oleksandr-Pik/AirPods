@@ -98,15 +98,19 @@ body {
 .header__content-images:has(.color--blue.content-item--active)::before {
   background: linear-gradient(180deg, #cadbeb 0%, #ebebeb 100%);
 }
+
 .header__content-images:has(.color--black.content-item--active)::before {
   background: linear-gradient(180deg, #b6b6b6 0%, #ebebeb 100%);
 }
+
 .header__content-images:has(.color--green.content-item--active)::before {
   background: linear-gradient(180deg, #ddead9 0%, #ebebeb 100%);
 }
+
 .header__content-images:has(.color--red.content-item--active)::before {
   background: linear-gradient(180deg, #f3d6d1 0%, #ebebeb 100%);
 }
+
 .header__content-images:has(.color--white.content-item--active)::before {
   background: linear-gradient(180deg, #fafafa 0%, #ebebeb 100%);
 }
